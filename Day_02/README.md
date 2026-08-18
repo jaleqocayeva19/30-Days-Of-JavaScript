@@ -1,31 +1,24 @@
-# Day 2: Data Types 📚
+# 30 Days of JavaScript - Day 3
 
-This directory contains my solutions for the **Day 2** exercises of the 30 Days of JavaScript challenge.
+Solutions for Day 3 exercises focusing on Booleans, Operators, and Date Object.
 
----
+## 📌 Exercises
 
-## 📑 Overview & Topics Covered
+### Level 1
+Basic data types, `typeof` operator, boolean values, truthy/falsy logic, comparison operators (`==`, `===`), logical operators (`&&`, `||`, `!`), and `Date` object methods.
 
-In this challenge, I practiced working with JavaScript Data Types:
-- **Primitive Data Types:** Numbers, Strings, Booleans, Null, Undefined, Symbols
-- **Non-Primitive Data Types:** Objects, Arrays
-- **String Methods:** `length`, `toUpperCase()`, `toLowerCase()`, `substring()`, `includes()`, `split()`, `replace()`, `charAt()`, `indexOf()`, `lastIndexOf()`, `trim()`, `startsWith()`, `endsWith()`, `match()`, `concat()`, `repeat()`
-- **Math Object:** `Math.random()`, `Math.floor()`, `Math.round()`
-- **Data Type Casting:** Converting strings to numbers using `parseInt()`, `parseFloat()`, and `Number()`
+### Level 2
+Interactive scripts using `prompt()`:
+- Calculating geometric areas & perimeters (triangle, rectangle, circle)
+- Linear equations & slopes
+- Income calculator & age comparator
+- Driving eligibility check
+- Seconds lived calculator & basic date formatting
 
----
-
-## 🚀 Exercises Completed
-
-- [x] **Exercise: Level 1** — 25 tasks focusing on string manipulation, methods, and basic operations.
-- [x] **Exercise: Level 2** — 12 tasks covering string escape characters, type checks, and generating random numbers.
-- [x] **Exercise: Level 3** — 4 tasks involving pattern matching with Regular Expressions, cleaning dirty strings, and calculating total income.
+### Level 3
+Advanced time formatting with two-digit padding (`YYYY-MM-DD HH:mm`) using `String.padStart()`.
 
 ---
 
-## 🛠️ File Structure
-
-```text
-Day_02/
-├── main.js        # JavaScript file containing all exercise solutions (Level 1, 2, and 3)
-└── README.md      # Notes and summary for Day 2
+## 🚀 Solutions
+Find the full source code in `day3.js`.
